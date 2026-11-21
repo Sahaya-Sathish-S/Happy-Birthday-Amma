@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#120b25">
+  <meta name="description" content="A birthday surprise made with love for Amma.">
+  <title>Happy Birthday Amma ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+  <div class="progress"><i id="progressBar"></i></div>
+  <header class="topbar"><a class="brand" href="#home">♡ <span>AMMA FOREVER</span></a><button class="sound-toggle" id="soundToggle" aria-label="Toggle music">♫ <span>Sound</span></button></header>
+
+  <main>
+    <section class="hero section" id="home">
+      <video class="hero-video" autoplay muted loop playsinline poster="assets/background-desktop.webp"><source src="assets/hero-memory-video.mp4" type="video/mp4"></video>
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span class="sparkle">✦</span> A LITTLE SURPRISE, MADE WITH LOVE <span class="sparkle">✦</span></div>
+        <div class="portrait-ring"><div class="portrait-glow"></div><img src="assets/amma-portrait.webp" alt="Amma smiling" class="hero-portrait"></div>
+        <p class="script-line">To the heart of our home</p>
+        <h1>Happy Birthday,<br><em>Amma</em><span class="heart">♥</span></h1>
+        <p class="hero-copy">Five little memories. A thousand reasons to say thank you.<br>This day is all about you.</p>
+        <a class="primary-btn" href="#memories">Enter your surprise <span>✧</span></a>
+        <div class="scroll-cue">SCROLL TO FEEL THE LOVE <b>↓</b></div>
+      </div>
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    </section>
+
+    <section class="section memories-section" id="memories">
+      <div class="section-heading reveal"><span class="eyebrow">CHAPTER 01 · OUR LITTLE UNIVERSE</span><h2>Moments that became<br><em>memories forever.</em></h2><p>Every photograph holds a little piece of our story.</p></div>
+      <div class="memory-grid">
+        <button class="memory-card memory-large reveal" data-photo="0"><img src="assets/memory-01.webp" alt="Family together"><span class="photo-caption">My favourite people, my favourite place.</span><b class="photo-number">01</b></button>
+        <button class="memory-card reveal" data-photo="1"><img src="assets/memory-02.webp" alt="A family moment"><span class="photo-caption">A simple moment, a beautiful memory.</span><b class="photo-number">02</b></button>
+        <button class="memory-card reveal" data-photo="2"><img src="assets/memory-03.webp" alt="Sharing a sweet moment"><span class="photo-caption">Your love is in the little things.</span><b class="photo-number">03</b></button>
+        <button class="memory-card reveal" data-photo="3"><img src="assets/memory-04.webp" alt="A sweet family moment"><span class="photo-caption">A memory I will always keep close.</span><b class="photo-number">04</b></button>
+        <button class="memory-card memory-portrait reveal" data-photo="4"><img src="assets/amma-portrait.webp" alt="Amma portrait"><span class="photo-caption">The beautiful heart behind it all.</span><b class="photo-number">05</b></button>
+      </div>
+      <div class="memory-note reveal">If I could frame one feeling, it would be <em>being loved by you.</em> ♡</div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="letter-glow"></div><div class="letter-wrap reveal">
+        <div class="envelope-icon">✉</div><span class="eyebrow">CHAPTER 02 · A LETTER FROM MY HEART</span>
+        <h2>Dear <em>Amma,</em></h2>
+        <div class="letter-paper">
+          <p>There are so many things I want to tell you, and sometimes the words are not enough.</p>
+          <p>Thank you for every little thing you do, for the care you show, for standing beside us, and for making our house feel like home. Many of the things I have become started with the love, patience and strength you gave me.</p>
+          <p>I may not say it every day, but I notice your efforts. I carry your lessons with me, and I hope one day I can give you even a little of the happiness you have given me.</p>
+          <p>My biggest wish is to see you smile, stay happy and feel proud. You deserve beautiful days, peaceful moments and all the love in the world.</p>
+          <p class="letter-sign">I love you, Amma. Always. <span>♥</span></p>
+          <p class="signature">With all my love,<br><strong>Your child</strong></p>
+        </div>
+        <div class="letter-foot">A small page for a love that has no end ✧</div>
+      </div>
+    </section>
+
+    <section class="section cake-section" id="cake">
+      <div class="cake-backdrop"></div><div class="section-heading reveal"><span class="eyebrow">CHAPTER 03 · MAKE A WISH</span><h2>One candle for every<br><em>beautiful tomorrow.</em></h2><p>Let's celebrate you. Tap the candles, make a wish, and cut your cake!</p></div>
+      <div class="cake-stage reveal" id="cakeStage">
+        <div class="cake-sparkles" aria-hidden="true">✦　·　✧　·　✦</div>
+        <div class="candles" id="candles"><button class="candle lit" aria-label="Blow candle 1"><i></i></button><button class="candle lit" aria-label="Blow candle 2"><i></i></button><button class="candle lit" aria-label="Blow candle 3"><i></i></button><button class="candle lit" aria-label="Blow candle 4"><i></i></button><button class="candle lit" aria-label="Blow candle 5"><i></i></button></div>
+        <div class="cake-art"><div class="cake-top"></div><div class="cake-tier tier-top"><span class="icing">✿　♡　✿</span></div><div class="cake-tier tier-bottom"><span class="icing">✧　✿　♡　✿　✧</span></div><div class="cake-plate"></div></div>
+        <div class="cake-controls"><button class="secondary-btn" id="blowBtn">✧ Blow out candles</button><button class="primary-btn" id="cutBtn" disabled>Cut the cake <span>♡</span></button></div>
+        <p class="cake-status" id="cakeStatus" aria-live="polite">Close your eyes, make a wish, and tap the candles.</p>
+      </div>
+      <audio id="birthdayAudio" src="assets/birthday-song.mp3" preload="auto"></audio>
+    </section>
+
+    <section class="section quiz-section" id="quiz">
+      <div class="section-heading reveal"><span class="eyebrow">CHAPTER 04 · A LITTLE FAMILY CHALLENGE</span><h2>How well do you know<br><em>this little surprise?</em></h2><p>Five questions. Five chances to unlock one more surprise.</p></div>
+      <div class="quiz-shell reveal"><div class="quiz-top"><span id="quizCount">QUESTION 01 / 05</span><div class="quiz-track"><i id="quizTrack"></i></div><span id="scoreLabel">♡ 0</span></div><div id="quizContent"></div><div class="quiz-actions"><button class="primary-btn" id="nextQuestion" disabled>Next question <span>→</span></button></div><div class="quiz-result" id="quizResult" hidden></div></div>
+      <div class="unlock-hint reveal">Get <strong>5 out of 5</strong> to unlock a special surprise. ✨</div>
+    </section>
+
+    <section class="section finale-section" id="finale">
+      <div class="finale-stars"></div><div class="finale-content reveal"><div class="final-heart">♥</div><span class="eyebrow">ONE LAST THING, AMMA</span><h2>You are my<br><em>forever blessing.</em></h2><p>May your days be filled with the same warmth and happiness you bring into our lives.</p><button class="primary-btn" id="finalSurprise">Open your little surprise <span>✧</span></button><div id="finalMessage" class="final-message" hidden>Thank you for being you. I love you beyond words, Amma. ❤️</div></div>
+      <footer>MADE WITH LOVE, JUST FOR YOU <span>♡</span></footer>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button><button class="lightbox-arrow prev" id="prevPhoto" aria-label="Previous photo">‹</button><img id="lightboxImage" src="" alt="Memory"><button class="lightbox-arrow next" id="nextPhoto" aria-label="Next photo">›</button><p id="lightboxCaption"></p></div>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body></html>
